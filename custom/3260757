@@ -1,0 +1,17 @@
+rule 3260757 {
+   meta:
+      description = "Detects 3260757 variant"
+      author = "Zourick"
+      reference = ""
+      date = "2019-08-24"
+   strings:
+      $s1 = "smerton.png"
+      $s2 = "tablone.png"
+      $s3 = "NetApi32.DLL"
+      $s5 = "ctlcomm.EXE"
+   condition:
+      any of them or
+      hash.md5(0, filesize) == "46b1a71c9f9476067d9a2c54502bb865" or
+      hash.md5(0, filesize) == "7ab309358e65c257686845c75b7c1751" or
+      hash.md5(0, filesize) == "ebfbb17d2cd57f0d3544ee254a085a01"
+}

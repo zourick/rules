@@ -15,5 +15,6 @@ rule IR_3260757 {
       any of them or
       hash.md5(0, filesize) == "46b1a71c9f9476067d9a2c54502bb865" or
       hash.md5(0, filesize) == "7ab309358e65c257686845c75b7c1751" or
-      hash.md5(0, filesize) == "ebfbb17d2cd57f0d3544ee254a085a01"
+      hash.md5(0, filesize) == "ebfbb17d2cd57f0d3544ee254a085a01" or
+      hash.md5(0, filesize) == "56727c860f30d50739a96c055211c669"
 }

@@ -1,3 +1,5 @@
+import "hash"
+
 rule IR_3260757 {
    meta:
       description = "Detects 3260757 variant"

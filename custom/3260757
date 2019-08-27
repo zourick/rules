@@ -7,7 +7,7 @@ rule IR_3260757 {
       reference = ""
       date = "2019-08-24"
    strings:
-      $s1 = "smerton.png"
+      $s1 = "samerton.png"
       $s2 = "tablone.png"
       $s3 = "NetApi32.DLL"
       $s5 = "ctlcomm.EXE"

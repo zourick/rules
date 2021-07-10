@@ -274,7 +274,7 @@ rule php_reverse_shell_2  : webshell{
 		filesize < 10KB and all of them
 }
 
-rule Laudanum_Tools_Generic2  : webshell Toolkit{
+rule Laudanum_Tools_Generic  : webshell Toolkit{
 	meta:
 		description = "Laudanum Injector Tools"
 		author = "Florian Roth"
